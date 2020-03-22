@@ -1,1 +1,1 @@
-# composer-rsync
+# composer-ansible
