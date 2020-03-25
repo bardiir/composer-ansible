@@ -9,7 +9,7 @@ RUN apt-get update \
 	&& add-apt-repository ppa:ondrej/php \
 	&& apt-get update \
     && apt-get install -y php7.3 \
-    && apt-get install -y php7.3-mbstring php7.3-xml php7.3-gd \
-    && apt-get install -y composer ansible npm zip \
+    && apt-get install -y php7.3-mbstring php7.3-xml php7.3-gd php7.3-zip \
+    && apt-get install -y composer ansible npm yarn zip \
     && apt-get -y autoremove \
 	  && rm -rf /var/lib/apt/lists/*
